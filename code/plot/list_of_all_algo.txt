@@ -1,0 +1,390 @@
+algo = {'name': 'noalign',
+  'align_algo': 'noalign',
+  'nfeature': '1300',
+  'kernel': None,
+  'rand': False
+}
+algo_list.append(algo)
+
+algo = {'name': 'HA',
+  'align_algo': 'ha',
+  'nfeature': '1300',
+  'kernel': None,
+  'rand': False
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'pHA I',
+  'align_algo': 'pha_em',
+  'nfeature': '1300',
+  'kernel': None,
+  'rand': False
+}
+algo_list.append(algo)
+
+########################
+
+algo = {
+  'name': 'pHA 10',
+  'align_algo': 'pha_em',
+  'nfeature': '10',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'pHA 50',
+  'align_algo': 'pha_em',
+  'nfeature': '50',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'pHA 100',
+  'align_algo': 'pha_em',
+  'nfeature': '100',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'pHA 500',
+  'align_algo': 'pha_em',
+  'nfeature': '500',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'pHA 1300',
+  'align_algo': 'pha_em',
+  'nfeature': '1300',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+########################
+
+algo = {
+  'name': 'pHAc 10',
+  'align_algo': 'ha_syn',
+  'nfeature': '10',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'pHAc 50',
+  'align_algo': 'ha_syn',
+  'nfeature': '50',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'pHAc 100',
+  'align_algo': 'ha_syn',
+  'nfeature': '100',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'pHAc 500',
+  'align_algo': 'ha_syn',
+  'nfeature': '500',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'pHAc 1300',
+  'align_algo': 'ha_syn',
+  'nfeature': '1300',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+##########################
+
+algo = {
+  'name': 'pHAc 100',
+  'align_algo': 'ha_syn',
+  'nfeature': '100',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'pHAc 200',
+  'align_algo': 'ha_syn',
+  'nfeature': '200',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'pHAc 400',
+  'align_algo': 'ha_syn',
+  'nfeature': '400',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'pHAc 500',
+  'align_algo': 'ha_syn',
+  'nfeature': '500',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'pHAc 550',
+  'align_algo': 'ha_syn',
+  'nfeature': '550',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'pHAc 600',
+  'align_algo': 'ha_syn',
+  'nfeature': '600',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'pHAc 650',
+  'align_algo': 'ha_syn',
+  'nfeature': '650',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'pHAc 700',
+  'align_algo': 'ha_syn',
+  'nfeature': '700',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'pHAc 850',
+  'align_algo': 'ha_syn',
+  'nfeature': '850',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+    
+
+##########################
+algo = {
+  'name': 'pPCA 10',
+  'align_algo': 'ppca',
+  'nfeature': '10',
+  'kernel': None,
+  'rand': False
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'pPCA 50',
+  'align_algo': 'ppca',
+  'nfeature': '50',
+  'kernel': None,
+  'rand': False
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'pPCA 100',
+  'align_algo': 'ppca',
+  'nfeature': '100',
+  'kernel': None,
+  'rand': False
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'pPCA 500',
+  'align_algo': 'ppca',
+  'nfeature': '500',
+  'kernel': None,
+  'rand': False
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'pPCA 1300',
+  'align_algo': 'ppca',
+  'nfeature': '1300',
+  'kernel': None,
+  'rand': False
+}
+algo_list.append(algo)
+
+######################
+
+algo = {
+  'name': 'pICA 10',
+  'align_algo': 'pica',
+  'nfeature': '10',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'pICA 50',
+  'align_algo': 'pica',
+  'nfeature': '50',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'pICA 100',
+  'align_algo': 'pica',
+  'nfeature': '100',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'pICA 500',
+  'align_algo': 'pica',
+  'nfeature': '500',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'pICA 1300',
+  'align_algo': 'pica',
+  'nfeature': '1300',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+######################
+
+algo = {
+  'name': 'HA-SM 10',
+  'align_algo': 'ha_sm_retraction',
+  'nfeature': '10',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'HA-SM 50',
+  'align_algo': 'ha_sm_retraction',
+  'nfeature': '50',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'HA-SM 100',
+  'align_algo': 'ha_sm_retraction',
+  'nfeature': '100',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'HA-SM 500',
+  'align_algo': 'ha_sm_retraction',
+  'nfeature': '500',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'HA-SM 1300',
+  'align_algo': 'ha_sm_retraction',
+  'nfeature': '1300',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+###############################
+
+algo = {
+  'name': 'spha_vi 10',
+  'align_algo': 'spha_vi',
+  'nfeature': '10',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'spha_vi 50',
+  'align_algo': 'spha_vi',
+  'nfeature': '50',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'spha_vi 100',
+  'align_algo': 'spha_vi',
+  'nfeature': '100',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'spha_vi 500',
+  'align_algo': 'spha_vi',
+  'nfeature': '500',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)
+
+algo = {
+  'name': 'spha_vi 1300',
+  'align_algo': 'spha_vi',
+  'nfeature': '1300',
+  'kernel': None,
+  'rand': True
+}
+algo_list.append(algo)

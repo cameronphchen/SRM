@@ -1,0 +1,6 @@
+run plot_bar_imgpred.py raider 1300 2203 10 10 5
+run plot_bar_imgpred_loo.py raider 1300 2203 10 10 5
+run plot_bar_mysseg.py raider 1300 2203 10 9 10 5
+run plot_bar_mysseg_loo.py raider 1300 2203 10 9 10 5
+run plot_bar_mysseg.py forrest_pt 1300 3535 18 9 10 5
+run plot_bar_mysseg_loo.py forrest_pt 1300 3535 10 9 10 5

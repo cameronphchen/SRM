@@ -1,0 +1,5 @@
+#get folder size
+du -ch | grep total
+
+# remove file with pattern
+find . -name '*__?.npz' | xargs rm

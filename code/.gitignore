@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Rondo log
+*.o*
+/code/sh_script/imgpred/archive/
+/code/sh_script/imgpred_loo/archive/
+/code/sh_script/mysseg/archive/
+/code/sh_script/mysseg_loo/archive/
+
+# pickle datafile
+*.pkl
+
+# numpy datafile
+*.npy
+
+# vim temp file
+*.swp
+
+# don't track data folder
+/data
+/data_old
+# mac system file
+*.DS_Store
