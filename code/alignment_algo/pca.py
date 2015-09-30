@@ -1,22 +1,20 @@
 #!/usr/bin/env python
 
-# using pPCA for multisubject fMRI data alignment
+# using PCA for multisubject fMRI data alignment
 
 #movie_data is a three dimensional matrix of size voxel x TR x nsubjs
 #movie_data[:,:,m] is the data for subject m, which will be X_m^T in the standard 
 #mathematic notation
 
-# do PCA on bX (nsubjs*nvoxel x nTR) concatenate the data vertically
-
+# do PCA on bX (nsubjs*nvoxel by nTR) concatenate the data vertically
 
 import numpy as np, scipy, random, sys, math, os
 from scipy import stats
 import sys
 sys.path.append('/jukebox/ramadge/pohsuan/scikit-learn/sklearn')
-from sklearn.decomposition import PCA
 
 def align(movie_data, options, args, lrh):
-    print 'pPCA(scikit-learn)'
+    print 'PCA'
     nvoxel = movie_data.shape[0]
     nTR    = movie_data.shape[1]
     nsubjs = movie_data.shape[2]

@@ -1,13 +1,10 @@
 #!/usr/bin/env python
 
-# using pPCA for multisubject fMRI data alignment
+# using ICA (FastICA) for multisubject fMRI data alignment
 
 #movie_data is a three dimensional matrix of size voxel x TR x nsubjs
 #movie_data[:,:,m] is the data for subject m, which will be X_m^T in the standard 
 #mathematic notation
-
-# do ICA on bX (nvoxel x nsubjs*nTR)
-
 
 import numpy as np, scipy, random, sys, math, os
 from scipy import stats
