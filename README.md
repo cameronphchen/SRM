@@ -13,14 +13,14 @@ Po-Hsuan Chen, Janice Chen, Yaara Yeshurun-Dishon, Uri Hasson, James Haxby, Pete
 Advances in Neural Information Processing Systems (NIPS), 2015. 
 
 Bibtex:
-'''
+```
 @inproceedings{phchen2015srm,
   title={A Reduced-Dimension f{MRI} Shared Response Model},
   author={Chen, P.-H. and Chen, J. and Yeshurun, Y. and Hasson, U. and Haxby, J. V. and Ramadge, P. J. },
   year={2015},
   booktitle={Advances in Neural Information Processing Systems (NIPS) },
 }
-'''
+```
 
 Code Structure:
 
