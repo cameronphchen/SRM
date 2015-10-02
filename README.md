@@ -31,11 +31,3 @@ Code Structure:
 In data folder, there should be data/input, data/working, data/output
 
 
-To replicate results in NIPS paper:
-1. Set input, working, and output path in run_exp.py to the proper location
-
-Experiment 1:
-
-Experiment 2:
-
-Experiment 3:
