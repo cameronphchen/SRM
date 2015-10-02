@@ -14,6 +14,7 @@ Advances in Neural Information Processing Systems (NIPS), 2015.
 
 
 Code Structure:
+
 1. SRM/code:
   * alignment_algo   : alignmetn algorithms
   * experiments      : experiments, called by run_exp*.py
@@ -27,7 +28,7 @@ Code Structure:
   * run_exp_noLR.py          : experiment code for image prediction and myster segment identification without seperating left and right hemisphere
   * run_exp.py               : experiment code for image prediction and myster segment identification seperating left and right hemisphere
 
-2. SRM/data
-  In data folder, there should be data/input, data/working, data/output
+2. SRM/data:
+  * In data folder, there should be data/input, data/working, data/output
 
 
