@@ -23,6 +23,8 @@ Bibtex:
 }
 ```
 
+Please refer to code/readme.txt for procedure to replicate NIPS results
+
 Code Structure:
 
 1. SRM/code:
