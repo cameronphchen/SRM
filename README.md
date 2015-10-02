@@ -9,14 +9,14 @@ If you use this code or SRM in scientific publication, citing the following pape
 
 **A Reduced-Dimension fMRI Shared Response Model**
 
-Po-Hsuan Chen, Janice Chen, Yaara Yeshurun-Dishon, Uri Hasson, James Haxby, Peter Ramadge 
+Po-Hsuan Chen, Janice Chen, Yaara Yeshurun, Uri Hasson, James V. Haxby, Peter J. Ramadge 
 Advances in Neural Information Processing Systems (NIPS), 2015. 
 
 Bibtex:
 ```
 @inproceedings{phchen2015srm,
   title={A Reduced-Dimension f{MRI} Shared Response Model},
-  author={Chen, P.-H. and Chen, J. and Yeshurun, Y. and Hasson, U. and Haxby, J. V. and Ramadge, P. J. },
+  author={Chen, Po-Hsuan and Chen, Janice and Yeshurun, Yaara and Hasson, Uri and Haxby, James V. and Ramadge, Peter J. },
   year={2015},
   booktitle={Advances in Neural Information Processing Systems (NIPS) },
 }
