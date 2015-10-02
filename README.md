@@ -12,6 +12,15 @@ If you use this code or SRM in scientific publication, citing the following pape
 Po-Hsuan Chen, Janice Chen, Yaara Yeshurun-Dishon, Uri Hasson, James Haxby, Peter Ramadge 
 Advances in Neural Information Processing Systems (NIPS), 2015. 
 
+Bibtex:
+'''
+@inproceedings{phchen2015srm,
+  title={A Reduced-Dimension f{MRI} Shared Response Model},
+  author={Chen, P.-H. and Chen, J. and Yeshurun, Y. and Hasson, U. and Haxby, J. V. and Ramadge, P. J. },
+  year={2015},
+  booktitle={Advances in Neural Information Processing Systems (NIPS) },
+}
+'''
 
 Code Structure:
 
