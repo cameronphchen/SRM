@@ -11,7 +11,7 @@ If you use this code or SRM in scientific publication, citing the following pape
 
 Po-Hsuan Chen, Janice Chen, Yaara Yeshurun, Uri Hasson, James V. Haxby, Peter J. Ramadge 
 Advances in Neural Information Processing Systems (NIPS), 2015. 
-[Preprint](cameronphchen.github.io/files/nips2015.pdf)
+[Preprint](https://cameronphchen.github.io/files/nips2015.pdf)
 
 Bibtex:
 ```
