@@ -77,10 +77,10 @@ opt_folder  = str(args.nfeature) + 'feat/' + \
               ("loo"+str(args.loo) if args.loo != None else "all" ) + '/'
 
 # rondo options
-options = {'input_path'  : '/jukebox/ramadge/pohsuan/pHA/data/input/'+data_folder,\
-           'working_path': '/fastscratch/pohsuan/pHA/data/working/'+\
+options = {'input_path'  : '/jukebox/ramadge/pohsuan/SRM/data/input/'+data_folder,\
+           'working_path': '/fastscratch/pohsuan/SRM/data/working/'+\
                             data_folder+exp_folder+alg_folder+opt_folder,\
-           'output_path' : '/jukebox/ramadge/pohsuan/pHA/data/output/'+\
+           'output_path' : '/jukebox/ramadge/pohsuan/SRM/data/output/'+\
                             data_folder+exp_folder+alg_folder+opt_folder}
 print '----------------experiment paths----------------'
 pprint.pprint(options,width=1)

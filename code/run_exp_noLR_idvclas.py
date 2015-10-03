@@ -83,10 +83,10 @@ opt_group_folder = 'all' + str(args.nfeature_all) + 'feat/' + 'group' + str(args
 # rondo options
 
 
-options = {'input_path'  : '/jukebox/ramadge/pohsuan/pHA/data/input/'+data_folder,\
-           'working_path': '/fastscratch/pohsuan/pHA/data/working/'+\
+options = {'input_path'  : '/jukebox/ramadge/pohsuan/SRM/data/input/'+data_folder,\
+           'working_path': '/fastscratch/pohsuan/SRM/data/working/'+\
                            data_folder+exp_folder+alg_folder,\
-           'output_path' : '/jukebox/ramadge/pohsuan/pHA/data/output/'+\
+           'output_path' : '/jukebox/ramadge/pohsuan/SRM/data/output/'+\
                             data_folder+exp_folder+alg_folder+opt_group_folder}
 print '----------------experiment paths----------------'
 pprint.pprint(options,width=1)

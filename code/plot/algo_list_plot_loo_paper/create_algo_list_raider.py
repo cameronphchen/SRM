@@ -13,7 +13,7 @@ algo_list = []
 
 algo = {
   'name': 'PCA\nk=50',
-  'align_algo': 'ppca',
+  'align_algo': 'pca',
   'nfeature': '50',
   'kernel': None,
   'rand': False
@@ -22,7 +22,7 @@ algo_list.append(algo)
 
 algo = {
   'name': 'ICA\nk=50',
-  'align_algo': 'pica',
+  'align_algo': 'ica',
   'nfeature': '50',
   'kernel': None,
   'rand': True
@@ -47,16 +47,9 @@ algo = {
 algo_list.append(algo)
 
 
-
-
 # write python dict to a file
 output = open('algo_list.pkl', 'wb')
 pickle.dump(algo_list, output)
 output.close()
-
-# read python dict back from the file
-pkl_file = open('algo_list.pkl', 'rb')
-algo_list_out = pickle.load(pkl_file)
-pkl_file.close()
 
 print algo_list
