@@ -22,9 +22,9 @@ nsubj=19
 
 ln -s /jukebox/ramadge/pohsuan/SRM/code/run_exp_noLR_idvclas.py run_exp_noLR_idvclas.py
 chmod +x run_exp_noLR_idvclas.py
-for nfeat_all in 0 1 3 5 10 50 100 #25
+for nfeat_all in 0 1 3 5 10 50 100 
 do
-    for nfeat_group in 50 100 200 #100 200 #100 #100 200 #500 1000
+    for nfeat_group in 50 100 200 
     do
         for loo in $(seq 0 $nsubj)
         do
@@ -32,8 +32,8 @@ do
             for rand in  $(seq 0 4)
             do
                 $submittype run_exp_noLR_idvclas.py $dataset $nvoxel $nTR $exptype --loo $loo srm_noneprob $niter $nfeat_all $nfeat_group -r $rand --strfresh
-                $submittype run_exp_noLR_idvclas.py $dataset $nvoxel $nTR $exptype --loo $loo pica_idvclas 1 $nfeat_all $nfeat_group -r $rand --strfresh
-                #$submittype run_exp_noLR_idvclas.py $dataset $nvoxel $nTR $exptype --loo $loo pha_em $niter $nfeat_all $nfeat_group -r $rand --strfresh
+                $submittype run_exp_noLR_idvclas.py $dataset $nvoxel $nTR $exptype --loo $loo pica_idvclas 1      $nfeat_all $nfeat_group -r $rand --strfresh
+                $submittype run_exp_noLR_idvclas.py $dataset $nvoxel $nTR $exptype --loo $loo srm          $niter $nfeat_all $nfeat_group -r $rand --strfresh
             done
         done
     done
