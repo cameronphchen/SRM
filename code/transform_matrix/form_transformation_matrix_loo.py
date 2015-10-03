@@ -14,7 +14,7 @@ def transform(args, workspace_lh ,workspace_rh, align_data_lh, align_data_rh, ns
   align_data_lh_loo_zscore = stats.zscore(align_data_lh[:,:,loo].T ,axis=0, ddof=1).T 
   align_data_rh_loo_zscore = stats.zscore(align_data_rh[:,:,loo].T ,axis=0, ddof=1).T
 
-  if args.align_algo in ['ha', 'ha_noagg','ha_syn', 'ha_syn_noagg']:
+  if args.align_algo in ['ha', 'srm_noneprob']:
     bW_lh = workspace_lh['R']
     bW_rh = workspace_rh['R']
     for m in range(nsubjs-1):
@@ -29,7 +29,7 @@ def transform(args, workspace_lh ,workspace_rh, align_data_lh, align_data_rh, ns
     transform_lh[:,:,loo] = U_lh.dot(V_lh)
     transform_rh[:,:,loo] = U_rh.dot(V_rh)
     
-  elif args.align_algo in ['ha_sm_retraction','ha_sm_newton']:
+  elif args.align_algo in ['ha_sm_retraction']:
     bW_lh = workspace_lh['W']
     bW_rh = workspace_rh['W']
     for m in range(nsubjs-1):
@@ -41,7 +41,7 @@ def transform(args, workspace_lh ,workspace_rh, align_data_lh, align_data_rh, ns
     transform_lh[:,:,loo] = U_lh.dot(V_lh)
     transform_rh[:,:,loo] = U_rh.dot(V_rh)
 
-  elif args.align_algo in ['srm', 'spha_vi']:
+  elif args.align_algo in ['srm']:
     bW_lh = workspace_lh['bW']
     bW_rh = workspace_rh['bW']
     for m in range(nsubjs-1):
@@ -56,7 +56,7 @@ def transform(args, workspace_lh ,workspace_rh, align_data_lh, align_data_rh, ns
     transform_lh[:,:,loo] = U_lh.dot(V_lh)
     transform_rh[:,:,loo] = U_rh.dot(V_rh)
   
-  elif args.align_algo in ['ppca', 'pica', 'ppca2', 'pica2']:
+  elif args.align_algo in ['pca', 'ica']:
     bX_lh = np.zeros((nsubjs*args.nvoxel,align_data_lh.shape[1]))
     bX_rh = np.zeros((nsubjs*args.nvoxel,align_data_rh.shape[1]))
     for m in range(nsubjs):
@@ -84,13 +84,6 @@ def transform(args, workspace_lh ,workspace_rh, align_data_lh, align_data_rh, ns
     #U_rh, s_rh, V_rh = np.linalg.svd(align_data_rh_loo_zscore.dot(workspace_rh['ES'].T)+0.001*pert, full_matrices=False)
     #transform_lh[:,:,loo] = U_lh.dot(V_lh)
     #transform_rh[:,:,loo] = U_rh.dot(V_rh)    
-
-  elif args.align_algo in ['ppca_hor','pica_hor']:
-    bW_lh = workspace_lh['R']
-    bW_rh = workspace_rh['R']
-    for m in range(nsubjs):
-      transform_lh[:,:,m] = bW_lh
-      transform_rh[:,:,m] = bW_rh
 
   elif args.align_algo == 'noalign' :
     for m in range(nsubjs):
