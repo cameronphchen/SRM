@@ -10,7 +10,7 @@ import numpy as np, scipy, random, sys, math, os
 from scipy import stats
 
 def align(movie_data, options, args, lrh):
-    print 'HA_noagg',
+    print 'HA',
     sys.stdout.flush()
 
     nvoxel = movie_data.shape[0]
