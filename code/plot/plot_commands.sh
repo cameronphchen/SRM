@@ -11,8 +11,8 @@ plot_code="plot_bar_mysseg_loo.py"
 
 ## bar chars for experiment 2 time segment matching
 #python $plot_code $tag raider 500 2203 10 6 10 5
-#python $plot_code $tag forrest_pt 1300 3535 18 9 10 5
-python $plot_code $tag sherlock_smooth_pmc_noLR 813 1976 16 9 10 5
+python $plot_code $tag forrest_pt 1300 3535 18 9 10 5
+#python $plot_code $tag sherlock_smooth_pmc_noLR 813 1976 16 9 10 5
 
 
 #for iter in  10 

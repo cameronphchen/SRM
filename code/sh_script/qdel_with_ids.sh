@@ -1,4 +1,4 @@
-for id in $(seq 2158 3202)
+for id in $(seq 514 699)
 do 
-	qdel 487$id
+	qdel 5318$id
 done
