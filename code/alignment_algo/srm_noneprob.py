@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-
 # Inference code for non-probabilistic Shared Response Model
 
 # A Reduced-Dimension fMRI Shared Response Model                                                                                       
@@ -10,6 +9,8 @@
 # movie_data is a three dimensional matrix of size voxel x TR x nsubjs
 # movie_data[:,:,m] is the data for subject m, which will be X_m^T in the standard 
 # mathematic notation
+
+# By Cameron PH Chen @ Princeton 
 
 import numpy as np, scipy, random, sys, math, os
 from scipy import stats
