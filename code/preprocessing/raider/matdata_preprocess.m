@@ -56,10 +56,10 @@ assert(sum(sum(sum(isnan(movie_data_lh)))) == 0)
 output_path = ['/jukebox/ramadge/pohsuan/pHA/data/input/' dataset '/' nvoxel_str 'vx/' nTR_str 'TR/']
 
 mkdir(output_path)
-%save([output_path 'movie_data_lh.mat'],'movie_data_lh');
-%save([output_path 'movie_data_rh.mat'],'movie_data_rh');
+save([output_path 'movie_data_lh.mat'],'movie_data_lh');
+save([output_path 'movie_data_rh.mat'],'movie_data_rh');
 
-%{
+
 % apply voxel selection on time averaged image watching data
 image_data_lh = nan(nvoxel, 56, nsubjs);
 image_data_rh = nan(nvoxel, 56, nsubjs);
@@ -87,7 +87,7 @@ assert(sum(sum(sum(isnan(image_data_rh)))) == 0)
 
 save([output_path 'image_data_lh.mat'],'image_data_lh');
 save([output_path 'image_data_rh.mat'],'image_data_rh');
-%}
+
 
 % apply voxel selection on image watching time series data
 image_data_lh = nan(nvoxel, 1536, nsubjs);
