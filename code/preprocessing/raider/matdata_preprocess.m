@@ -14,6 +14,9 @@ load /jukebox/ramadge/pohsuan/pHA/data/raw/raider/monkeydog_timeaveraged_data.ma
 load /jukebox/ramadge/pohsuan/pHA/data/raw/raider/block_labels.txt
 load /jukebox/ramadge/pohsuan/pHA/data/raw/raider/monkeydog_raw_data.mat
 
+output_path = ['/jukebox/ramadge/pohsuan/SRM/data/input/' dataset '/' nvoxel_str 'vx/' nTR_str 'TR/']
+
+
 for subj_index = 1:size(movie_data_raw_despiked,1)
     mv_data = movie_data_raw_despiked{subj_index,1};
     if nTR == 2203
@@ -52,8 +55,6 @@ end
 
 assert(sum(sum(sum(isnan(movie_data_rh)))) == 0)
 assert(sum(sum(sum(isnan(movie_data_lh)))) == 0)
-
-output_path = ['/jukebox/ramadge/pohsuan/pHA/data/input/' dataset '/' nvoxel_str 'vx/' nTR_str 'TR/']
 
 mkdir(output_path)
 save([output_path 'movie_data_lh.mat'],'movie_data_lh');
