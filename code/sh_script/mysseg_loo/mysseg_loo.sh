@@ -33,7 +33,7 @@ nsubj_minus_1=17 #number of subjs-1
 ln -s /jukebox/ramadge/pohsuan/SRM/code/$exp $exp
 chmod +x $exp
 
-for loo in $(seq 1 5)
+for loo in $(seq 0 $nsubj_minus_1)
 do
 
     #$submittype $exp $dataset $nvoxel $nTR mysseg --loo $loo -e 1st -w $winsize noalign 1      $nvoxel --strfresh
