@@ -2,7 +2,10 @@
 import scipy.io
 import os,sys
 import numpy as np
+sys.path.append('/jukebox/ramadge/pohsuan/PyMVPA')
+sys.path.append('/jukebox/ramadge/pohsuan/nibabel')
 import mvpa2
+import nibabel
 from mvpa2.datasets.mri import fmri_dataset
 from scipy.signal import butter, lfilter
 
@@ -36,6 +39,7 @@ forrest_movie_all = np.empty((nsubj,1), dtype=object)
 for subj in range(nsubj):
     if subj in [3,9]:
         subj_data = np.zeros(0)
+        forrest_movie_all[subj,0] = subj_data
         continue
     print str(subj)+':'
     sys.stdout.flush()
