@@ -9,7 +9,7 @@ from scipy.signal import butter, lfilter
 
 subj = int(sys.argv[1])
 print 'subj {}'.format(subj)
-roi = 'vt'
+roi = 'pt'
 template_path = '/jukebox/fastscratch/pohsuan/pHA/data/raw/forest/'+\
                 'psydata.ovgu.de/forrest_gump/templates/grpbold7Tad/from_mni/'
 mask_fname = os.path.join(template_path, roi+'_mask.nii.gz')

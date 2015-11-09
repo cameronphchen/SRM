@@ -9,7 +9,7 @@ from mvpa2.datasets.mri import fmri_dataset
 from scipy.signal import butter, lfilter
 
 
-roi = 'vt'
+roi = 'pt'
 
 nsubj = 20
 nrun  = 8
