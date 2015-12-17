@@ -45,8 +45,10 @@ Code Structure:
 
 Data :
 
-raider : data/input/raider/ 
+raider : 
+.mat files at data/input/raider/ 
 If you use this dataset please refer to Haxby et at. 2011 Neuron paper. 
+
 Bibtex:
 ```
 @article{haxby2011common,
@@ -61,9 +63,10 @@ Bibtex:
 }
 ```
 
-forrest: www.studyforrest.org
-Please refer this website for forrest dataset
+forrest: 
+Please refer to www.studyforrest.org for forrest dataset
 
-sherlock and audiobook: The papers for these two datasets are still under review, so the datasets are available at this point. 
+sherlock and audiobook: 
+The papers for these two datasets are still under review, so the datasets are available at this point. 
 
 
