@@ -43,4 +43,27 @@ Code Structure:
 2. SRM/data:
   * In data folder, there should be data/input, data/working, data/output
 
+Data :
+
+raider : data/input/raider/ 
+If you use this dataset please refer to Haxby et at. 2011 Neuron paper. 
+Bibtex:
+```
+@article{haxby2011common,
+  title={A common, high-dimensional model of the representational space in human ventral temporal cortex},
+  author={Haxby, James V and Guntupalli, J Swaroop and Connolly, Andrew C and Halchenko, Yaroslav O and Conroy, Bryan R and Gobbini, M Ida and Hanke, Michael and Ramadge, Peter J},
+  journal={Neuron},
+  volume={72},
+  number={2},
+  pages={404--416},
+  year={2011},
+  publisher={Elsevier}
+}
+```
+
+forrest: www.studyforrest.org
+Please refer this website for forrest dataset
+
+sherlock and audiobook: The papers for these two datasets are still under review, so the datasets are available at this point. 
+
 
