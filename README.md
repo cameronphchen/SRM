@@ -67,6 +67,6 @@ forrest:
 Please refer to www.studyforrest.org for forrest dataset
 
 sherlock and audiobook: 
-The papers for these two datasets are still under review, so the datasets are available at this point. 
+The papers for these two datasets are still under review, so the datasets are not available at this point. 
 
 
