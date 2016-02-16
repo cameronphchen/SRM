@@ -25,14 +25,15 @@ Bibtex:
 
 Please refer to code/readme.txt for procedure to replicate NIPS results
 
-## To use the code please do 
-'''
+### To use the code please do 
+```
 git clone https://github.com/cameronphchen/SRM.git
-'''
-## After the above step, to get the data please do (make sure git-lfs is installed on your machine https://git-lfs.github.com/)
-'''
+```
+### After the above step, to get the data please do 
+(make sure git-lfs is installed on your machine https://git-lfs.github.com/)
+```
 git lfs pull
-'''
+```
 
 ##Code Structure:
 
