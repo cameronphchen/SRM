@@ -29,7 +29,7 @@ Please refer to code/readme.txt for procedure to replicate NIPS results
 ```
 git clone https://github.com/cameronphchen/SRM.git
 ```
-### After the above step, to get the data please do 
+### After git clone, to get the data please do 
 (make sure git-lfs is installed on your machine https://git-lfs.github.com/)
 ```
 git lfs pull
