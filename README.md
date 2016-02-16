@@ -25,7 +25,16 @@ Bibtex:
 
 Please refer to code/readme.txt for procedure to replicate NIPS results
 
-Code Structure:
+## To use the code please do 
+'''
+git clone https://github.com/cameronphchen/SRM.git
+'''
+## After the above step, to get the data please do (make sure git-lfs is installed on your machine https://git-lfs.github.com/)
+'''
+git lfs pull
+'''
+
+##Code Structure:
 
 1. SRM/code:
   * alignment_algo   : alignmetn algorithms
@@ -43,7 +52,7 @@ Code Structure:
 2. SRM/data:
   * In data folder, there should be data/input, data/working, data/output
 
-Data :
+##Data :
 
 raider : 
 .mat files at data/input/raider/ 
