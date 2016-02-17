@@ -1,6 +1,7 @@
 # Shared Response Model (SRM)
 
 Library for Shared Response Model, related methods and experiment pipelines
+
 Developed by Cameron PH Chen @ Princeton (https://cameronphchen.github.io)
 
 ### If you just want to use SRM on your dataset, checkout https://github.com/cameronphchen/Use_SRM
