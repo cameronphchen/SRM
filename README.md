@@ -1,9 +1,11 @@
-# SRM
-Shared Response Model 
+# Shared Response Model (SRM)
 
-Library for Shared Response Model, related methods and experiment pipeline
-
+Library for Shared Response Model, related methods and experiment pipelines
 Developed by Cameron PH Chen @ Princeton (https://cameronphchen.github.io)
+
+### If you just want to use SRM on your dataset, checkout https://github.com/cameronphchen/Use_SRM
+
+### Paper:
 
 If you use this code or SRM in scientific publication, citing the following paper is appreciated: 
 
@@ -23,8 +25,6 @@ Bibtex:
 }
 ```
 
-Please refer to code/readme.txt for procedure to replicate NIPS results
-
 ### To use the code please do 
 ```
 git clone https://github.com/cameronphchen/SRM.git
@@ -34,6 +34,8 @@ git clone https://github.com/cameronphchen/SRM.git
 ```
 git lfs pull
 ```
+
+Please refer to code/readme.txt for procedure to replicate NIPS results
 
 ##Code Structure:
 
