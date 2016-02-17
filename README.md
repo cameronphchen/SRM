@@ -4,7 +4,7 @@ Library for Shared Response Model, related methods and experiment pipelines
 
 Developed by Cameron PH Chen @ Princeton (https://cameronphchen.github.io)
 
-### If you just want to use SRM on your dataset, checkout https://github.com/cameronphchen/Use_SRM
+##### If you only want to use SRM on your dataset, checkout [Use_SRM](https://github.com/cameronphchen/Use_SRM)
 
 ### Paper:
 
@@ -26,19 +26,17 @@ Bibtex:
 }
 ```
 
-### To use the code please do 
+### To use the code and data please do 
 ```
+# clone code
 git clone https://github.com/cameronphchen/SRM.git
-```
-### After git clone, to get the data please do 
-(make sure git-lfs is installed on your machine https://git-lfs.github.com/)
-```
+# clone data (make sure git-lfs is installed on your machine https://git-lfs.github.com/)
 git lfs pull
 ```
 
-Please refer to code/readme.txt for procedure to replicate NIPS results
-
 ##Code Structure:
+
+Please refer to code/readme.txt for procedure to replicate NIPS results
 
 1. SRM/code:
   * alignment_algo   : alignmetn algorithms
@@ -56,30 +54,10 @@ Please refer to code/readme.txt for procedure to replicate NIPS results
 2. SRM/data:
   * In data folder, there should be data/input, data/working, data/output
 
-##Data :
+##Datasets :
 
-raider : 
-.mat files at data/input/raider/ 
-If you use this dataset please refer to Haxby et at. 2011 Neuron paper. 
+*  raider : .mat files in data/input/raider/. If you use this dataset please refer to [Haxby et at. 2011 Neuron](http://haxbylab.dartmouth.edu/publications/HGC+11.pdf). 
 
-Bibtex:
-```
-@article{haxby2011common,
-  title={A common, high-dimensional model of the representational space in human ventral temporal cortex},
-  author={Haxby, James V and Guntupalli, J Swaroop and Connolly, Andrew C and Halchenko, Yaroslav O and Conroy, Bryan R and Gobbini, M Ida and Hanke, Michael and Ramadge, Peter J},
-  journal={Neuron},
-  volume={72},
-  number={2},
-  pages={404--416},
-  year={2011},
-  publisher={Elsevier}
-}
-```
+*  forrest: Please refer to www.studyforrest.org for forrest dataset
 
-forrest: 
-Please refer to www.studyforrest.org for forrest dataset
-
-sherlock and audiobook: 
-The papers for these two datasets are still under review, so the datasets are not available at this point. 
-
-
+*  sherlock and audiobook: The papers for these two datasets are still under review, so the datasets are not available at this point. 
