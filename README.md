@@ -61,3 +61,5 @@ Please refer to code/readme.txt for procedure to replicate NIPS results
 *  forrest: Please refer to www.studyforrest.org for forrest dataset
 
 *  sherlock and audiobook: The papers for these two datasets are still under review, so the datasets are not available at this point. 
+## Conclusion
+If this project help you so please give me a star and follow me.
